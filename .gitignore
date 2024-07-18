@@ -1,3 +1,6 @@
+# These data files are too large to manage naively
+resources/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
