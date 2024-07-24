@@ -1,5 +1,6 @@
 # These data files are too large to manage naively
-resources/
+resources/2016/*.csv
+resources/2020/*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
