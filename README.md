@@ -14,6 +14,7 @@
 - Which states to consider swing states
 - Getting the counts to actually be right; my "cleaned" vote totals are like 5-10% lower than what Wikipedia says they should be
 - Pull those key column names and other strings to constants
+- Why do I have data for only 1755 counties (over 1800 before "cleaning") when there are about 3143 in the country?
 
 ## I Think I Fixed These
 - Large files: my data CSVs are 350-500MB each
