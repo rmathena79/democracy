@@ -2,6 +2,9 @@
 resources/2016/*.csv
 resources/2020/*.csv
 
+# Temp file generated during run
+combined.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
