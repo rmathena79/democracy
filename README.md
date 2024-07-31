@@ -5,7 +5,7 @@
 - Did "swing states" (states which were believed to be competitive, or states which flipped from Republican to Democrat) show a significant difference in shift compared to the country as a whole?
 
 ## Straight-Up Bugs
-- add_percent_above_value needs to adjust placement of the text
+- 
 
 ## Figuring out
 - Straight-ticket vote results
@@ -26,7 +26,7 @@
 - 2016 County name vs jurisdiction
 - Do I even need jurisdiction column?
 - Name inconsistencies: "donald trump" vs "donald j trump"
-
+- add_percent_above_value needs to adjust placement of the text
 
 ## Modules Needed
 - zipfile -- seems to already be installed
