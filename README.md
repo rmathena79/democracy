@@ -4,6 +4,9 @@
 - How much variation was there in that shift, at a county or state level?
 - Did "swing states" (states which were believed to be competitive, or states which flipped from Republican to Democrat) show a significant difference in shift compared to the country as a whole?
 
+## Straight-Up Bugs
+- add_percent_above_value needs to adjust placement of the text
+
 ## Figuring out
 - Straight-ticket vote results
 - Write-in votes
@@ -27,3 +30,5 @@
 ## Modules Needed
 - zipfile -- seems to already be installed
 - 
+
+The larger counties shifted more towards Democrat than the smaller counties shifted toward Republican
