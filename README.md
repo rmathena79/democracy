@@ -1,7 +1,8 @@
 ## Questions for the Data
 - How did votes for non-major candidates (anyone but Trump or Clinton/Biden) shift from 2016 to 2020?
 - How does that shift relate to the overall change in election result, from Republican in 2016 to Democrat in 2020?
-- How much variation was there in that shift, at a county or state level?
+- How does that shift relate to county size?
+- How much variation was there in that shift, at a county level?
 - Did "swing states" (states which were believed to be competitive, or states which flipped from Republican to Democrat) show a significant difference in shift compared to the country as a whole?
 
 ## Known Bugs
