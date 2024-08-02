@@ -1,3 +1,7 @@
+# Project 1 - Roy Mathena
+
+Comparing 2016 and 2020 US Presidential Election results, focusing on county-level changes and votes for candidates other than the two major nominees.
+
 ## Questions for the Data
 - How did votes for non-major candidates (anyone but Trump or Clinton/Biden) shift from 2016 to 2020?
 - How does that shift relate to the overall change in election result, from Republican in 2016 to Democrat in 2020?
@@ -5,12 +9,36 @@
 - How much variation was there in that shift, at a county level?
 - Did "swing states" (states which were believed to be competitive, or states which flipped from Republican to Democrat) show a significant difference in shift compared to the country as a whole?
 
+## Repository Contents
+- **democracy.ipynb**: The code which cleans, analyzes, and generates charts for the data. You should be able to run it in a regular environment from our class, possibly needing to install the "zipfile" module.
+- **resources/2016**: The 2016 election results, with the main data file in a ZIP file which will get decompressed by the notebook when needed.
+- **resources/2020**: The 2020 election results, with the main data file in a ZIP file which will get decompressed by the notebook when needed.
+
+## Modules Needed
+The base Anaconda environment we use for our class should suffice to run this notebook, with one possible exception. You may need the "zipfile" module. If you get an error running the cell which decompresses the data, try "pip install zipfile" in your environment, then reloading the notebook.
+
+## Data Sources
+
+Data files come from the **MIT Election Data and Science Lab (MEDSL)**:
+- "U.S. President Precinct-Level Returns 2016": http://dx.doi.org/10.7910/DVN/LYWX3D
+- "U.S. President Precinct-Level Returns 2020": https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JXPREB
+
+For validation, official vote totals come from the **Federal Election Commission**:
+- "FEDERAL ELECTIONS 2016 Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives": https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+- "FEDERAL ELECTIONS 2020 Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives:" https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf
+
+___
+
+# Notes
+
+Everything below here is for me keeping track of what I'm doing. It may not make sense to anyone else, or even be correct.
+
 ## Known Bugs
 - None! Which should make you nervous...
 
 ## Figuring out
 - Look for any counties / jurisdictions present in one year but not the other
-- Why do I have data for only 1755 counties (over 1800 before "cleaning") when there are about 3143 in the country?
+- Why do I have data for only 1755 counties when there are about 3143 in the country?
 
 ## I Think I Fixed These
 - Large files: my data CSVs are 350-500MB each
@@ -32,7 +60,3 @@
 - Discuss interesting items that don't have special actions
 - Pull those key column names and other strings to constants
 - Consolidate some charting code, it's insanely redundant
-
-## Modules Needed
-- zipfile -- seems to already be installed
- 
