@@ -9,9 +9,6 @@
 - None! Which should make you nervous...
 
 ## Figuring out
-- Add a table showing how close you got to official counts
-- Pull those key column names and other strings to constants
-- Consolidate some charting code, it's insanely redundant
 - Look for any counties / jurisdictions present in one year but not the other
 - Why do I have data for only 1755 counties (over 1800 before "cleaning") when there are about 3143 in the country?
 
@@ -33,6 +30,8 @@
 - Find an authoritative final count per state to compare my "cleaned" totals to
 - Getting the counts to actually be right; my "cleaned" vote totals are like 5-10% lower than what Wikipedia says they should be
 - Discuss interesting items that don't have special actions
+- Pull those key column names and other strings to constants
+- Consolidate some charting code, it's insanely redundant
 
 ## Modules Needed
 - zipfile -- seems to already be installed
