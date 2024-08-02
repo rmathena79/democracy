@@ -27,6 +27,9 @@ For validation, official vote totals come from the **Federal Election Commission
 - "FEDERAL ELECTIONS 2016 Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives": https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
 - "FEDERAL ELECTIONS 2020 Election Results for the U.S. President, the U.S. Senate and the U.S. House of Representatives:" https://www.fec.gov/resources/cms-content/documents/federalelections2020.pdf
 
+The list of 2020 "battleground" or "competitive" states comes from **Ballotpedia**:
+https://ballotpedia.org/Presidential_battleground_states,_2020
+
 ___
 
 # Notes
@@ -37,6 +40,7 @@ Everything below here is for me keeping track of what I'm doing. It may not make
 - None! Which should make you nervous...
 
 ## Figuring out
+- Get the cleaned totals closer to the official counts, espescially the extra "other" votes in 2016 which exaggerate my whole conclusion
 - Look for any counties / jurisdictions present in one year but not the other
 - Why do I have data for only 1755 counties when there are about 3143 in the country?
 

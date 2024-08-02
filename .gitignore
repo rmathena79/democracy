@@ -2,9 +2,10 @@
 resources/2016/*.csv
 resources/2020/*.csv
 
-# Temp files generated during run
+# Temp files
 combined.csv
 *.png
+~$*.pptx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
