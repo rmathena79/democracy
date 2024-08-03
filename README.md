@@ -10,6 +10,8 @@ Comparing 2016 and 2020 US Presidential Election results, focusing on county-lev
 - Did "swing states" (states which were believed to be competitive, or states which flipped from Republican to Democrat) show a significant difference in shift compared to the country as a whole?
 
 ## Repository Contents
+- **report.pptx**: The final report, in PowerPoint format.
+- **report.pdx**: The final report, in PDF format.
 - **democracy.ipynb**: The code which cleans, analyzes, and generates charts for the data. You should be able to run it in a regular environment from our class, possibly needing to install the "zipfile" module.
 - **resources/2016**: The 2016 election results, with the main data file in a ZIP file which will get decompressed by the notebook when needed.
 - **resources/2020**: The 2020 election results, with the main data file in a ZIP file which will get decompressed by the notebook when needed.
