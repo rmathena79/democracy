@@ -36,16 +36,14 @@ ___
 
 # Notes
 
-Everything below here is for me keeping track of what I'm doing. It may not make sense to anyone else, or even be correct.
+Everything below here is for me keeping track of what I'm doing. It may not make sense to anyone else.
 
 ## Known Bugs
-- In a few places, I'm treating county name as though it's unique. It isn't. I don't THINK this actually impacted my main results as reported in class, since the "big counties" dataframe was set up directly by looking at vote count. County name was only used for getting the number of counties, which was mentioned but didn't matter.
+- None at the moment...
 
 ## Figuring out
-- Replace the rigid "big counties" logic with a more flexible segmentation of counties, probably into quartiles
-- Get the cleaned totals closer to the official counts, espescially the extra "other" votes in 2016 which exaggerate my whole conclusion
+- Get the cleaned totals closer to the official counts, especially the extra "other" votes in 2016 which exaggerate my whole conclusion
 - Look for any counties / jurisdictions present in one year but not the other
-- Why do I have data for only 1755 counties when there are about 3143 in the country?
 
 ## I Think I Fixed These
 - Large files: my data CSVs are 350-500MB each
@@ -67,3 +65,5 @@ Everything below here is for me keeping track of what I'm doing. It may not make
 - Discuss interesting items that don't have special actions
 - Pull those key column names and other strings to constants
 - Consolidate some charting code, it's insanely redundant
+- Replace the rigid "big counties" logic with a more flexible segmentation of counties, probably into quartile
+- Why do I have data for only 1755 counties when there are about 3143 in the country?
